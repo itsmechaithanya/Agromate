@@ -1,8 +1,9 @@
 import React from 'react'
+import NavBar from './Components/NavBar'
 
 function App() {
   return (
-    <div className='h-screen w-screen bg-black'>App</div>
+    <NavBar/>
   )
 }
 
