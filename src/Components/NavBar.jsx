@@ -3,7 +3,7 @@ import logo from '../assets/image 1.png'
 
 function NavBar() {
   return (
-    <div className='w-[98vw] h-[4.5vw] bg-[#ffffff88] backdrop-blur border ml-[1vw] mt-[1vw] rounded-full flex justify-between fixed'>
+    <div className='w-[98vw] h-[4.5vw] bg-[#ffffff88] backdrop-blur  ml-[1vw] mt-[1vw] rounded-full flex justify-between fixed'>
       <div className='h-full w-fit flex items-center ml-[2vw] mt-.5'>
         <img src={logo} alt="" />
       </div>
