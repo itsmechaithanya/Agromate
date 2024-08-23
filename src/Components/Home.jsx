@@ -16,7 +16,7 @@ function Home() {
         </div>
     </div>
       <div className='h-fit w-screen flex items-center justify-center mt-[5vw]'>
-          <img class='w-[90vw] object-cover'  src={img2} alt="" />
+          <img class='w-[90vw] object-cover'  src={img2} alt="" /> 
       </div>
       <div className='h-fit w-screen flex justify-between'>
         <div className='w-[69%] pl-[4.5vw] mt-[4vw]'>
