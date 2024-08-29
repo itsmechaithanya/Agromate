@@ -27,7 +27,7 @@ function Home() {
           <h1 className=' capitalize text-[#323232] mt-[4vh]'>With every purchase, you support farmers in regaining control and confidence in their agricultural endeavors. Your investment helps them achieve greater independence and sustainability in their work.</h1>
           <a href=""><h1 className=' uppercase mt-[3vh] border-b-2 pb-1 font-medium border-black w-fit'>Shop to support</h1></a>
         </div>
-      </div>
+      </div> 
       <div className='h-fit w-screen pt-[5vw] px-[5vw]'>
         <h1 className='font-semibold leading-[7vh] text-[2.8vw] capitalize'>Agromate lets you control your water motor pump directly from your mobile phone, no matter where you are. With just a missed call from your smartphone, you can start or stop the pump effortlessly.</h1>
         <h1 className=' w-[70%] mt-[3vh] text-[#323232] text-xl capitalize'>This groundbreaking technology offers more than just convenience. By using Agromate, you cut down on physical visits to your motor pump, leading to significant savings in electricity, time, and water resources.</h1>
