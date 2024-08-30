@@ -5,7 +5,7 @@ import img3 from '../assets/image 10.png'
 
 function Home() {
   return (
-   <div>
+   <div> 
      <div className='h-fit w-screen pt-[6vw] flex justify-between'>
         <div className='w-[50%] ml-[5vw] mt-[7vw]'>
           <h1 className='text-[4.5vw] font-FuturaBold uppercase font-semibold '>Mobile-Operated Agricultural Motor System</h1>
