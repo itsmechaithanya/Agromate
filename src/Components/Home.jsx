@@ -12,11 +12,11 @@ function Home() {
           <h2 className=' w-[80%] text-xl font-light '>Control Your Motor Pump with a Simple Missed Call, Anytime, Anywhere!</h2>
         </div>
         <div className='mr-[5vw] mt-[1vw]'>
-          <img class='w-[40vw]' src={img} alt="" />
+          <img className='w-[40vw]' src={img} alt="" />
         </div>
     </div>
       <div className='h-fit w-screen flex items-center justify-center mt-[5vw]'>
-          <img class='w-[90vw] object-cover'  src={img2} alt="" /> 
+          <img className='w-[90vw] object-cover'  src={img2} alt="" /> 
       </div>
       <div className='h-fit w-screen flex justify-between'>
         <div className='w-[69%] pl-[4.5vw] mt-[4vw]'>
