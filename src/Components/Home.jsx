@@ -55,7 +55,7 @@ function Home() {
         </div>
         <div className='w-[40%] flex items-center justify-center'>
         <img src={img4} alt="" />
-        </div>
+        </div> 
       </div>
       <div className='w-screen py-[6vh] px-[5vw] flex justify-center'>
         <div className='w-[40%] flex items-center justify-center'><img src={img5} alt="" /></div>
