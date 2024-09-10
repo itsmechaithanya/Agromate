@@ -14,7 +14,7 @@ function NavBar() {
       <div className='lg:hidden'>
         <i class="ri-lg ri-menu-line"></i>
       </div>
-      <div className=' flex gap-8 items-center'>
+      <div className='lg:flex hidden gap-8 items-center'>
         <Link to="/HowItWorks">How it works ?</Link>
         <Link to="/Shop">Shop</Link>
         <Link to="/Media">Media</Link>
