@@ -1,6 +1,5 @@
 import React from 'react'
 import NavBar from './Components/NavBar'
-import Home from './Components/Home'
 import Homee from './Components/Homee.jsx'
 import HowItWorks from './Components/HowItWorks'
 import { Route, Routes } from 'react-router-dom'
