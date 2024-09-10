@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from './Components/NavBar'
 import Home from './Components/Home'
+import Homee from './Components/Homee.jsx'
 import HowItWorks from './Components/HowItWorks'
 import { Route, Routes } from 'react-router-dom'
 import Shop from './Components/Shop'
@@ -13,7 +14,7 @@ function App() {
     <>
       <NavBar/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<Homee/>}/>
         <Route path='/HowItWorks' element={<HowItWorks/>}/>
         <Route path='/Shop' element={<Shop/>}/>
         <Route path='/Media' element={<Media/>}/>
