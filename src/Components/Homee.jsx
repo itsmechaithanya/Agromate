@@ -4,7 +4,6 @@ import NavBar from './NavBar'
 function Homee() {
   return (
     <div>
-        <NavBar/>
     </div>
   )
 }

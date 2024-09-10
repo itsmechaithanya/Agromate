@@ -1,19 +1,25 @@
 import React from 'react'
-import logo from '../assets/image 1.png'
+import logo from '../assets/logo.png'
 import { Link } from 'react-router-dom'
 
 function NavBar() {
   return (
-    <div className='w-[98vw] h-[4.5vw] bg-[#ffffff88] backdrop-blur  ml-[1vw] mt-[1vw] rounded-full flex justify-between fixed'>
-      <Link className='h-full w-fit flex items-center ml-[2vw] mt-.5' to="/">
-        <img src={logo} alt="" />
-      </Link>
-      <div className='flex items-center mr-[1.3vw]'>
-        <Link className='ml-[2vw]' to="/HowItWorks">How it works ?</Link>
-        <Link className='ml-[2vw]' to="/Shop">Shop</Link>
-        <Link className='ml-[2vw]' to="/Media">Media</Link>
-        <Link className='ml-[2vw]' to="/AboutUs">About Us</Link>
-        <Link className='ml-[2vw] bg-[#E8E8E8] px-3 py-1.5 rounded-full' to="/ContactUs">Contact Us</Link>
+    <div className='w-screen h-[7vh] flex justify-between items-center p-5 lg:p-10'>
+      <div>
+        <Link to="/">
+          <img className='w-[30vw] lg:w-[13vw]' src={logo} alt="" />
+        </Link>
+      
+      </div>
+      <div className='lg:hidden'>
+        <i class="ri-lg ri-menu-line"></i>
+      </div>
+      <div className=' flex gap-8 items-center'>
+        <Link to="/HowItWorks">How it works ?</Link>
+        <Link to="/Shop">Shop</Link>
+        <Link to="/Media">Media</Link>
+        <Link to="/AboutUs">About Us</Link>
+        <Link className='bg-[#E8E8E8] py-1 px-3 rounded-full' to="/ContactUs">Contact Us</Link>
       </div>
     </div>
   )
