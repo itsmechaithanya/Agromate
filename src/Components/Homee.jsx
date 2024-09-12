@@ -8,6 +8,8 @@ import AgromateIVRS from '../assets/AgromateIVRS.png'
 import IESA from '../assets/IESA.png'
 import ICRISAT from '../assets/ICRISAT.png'
 import G from '../assets/G.png'
+import GG from '../assets/GG.png'
+import Last from '../assets/Last.png'
 
 
 
@@ -122,11 +124,35 @@ function Homee() {
       <div className='px-5 mt-[3vh] w-1/2'>
         <h1 className='font-bold text-[1.9vh] font-[Futura-Bold]'>We don’t simply offer a product.</h1>
       </div>
-      <div className='px-5 mt-[3vh]'>
+      <div className='px-5 mt-[5vh]'>
         <img className='w-[65vw]' src={G} alt="" />
       </div>
-      <div className='px-5 mt-[3vh] ml-[28vw]'>
+      <div className='px-5 mt-[7vh] ml-[28vw]'>
         <p className='font-light  '>We provide a tool that empowers you to transform your daily life. Our solution enables you to operate your motor pump from the comfort of your home, automating pump operations and freeing up valuable time for family and personal moments. After years of manual labor and potential hazards, such as snake bites, we believe that by introducing this innovative technology, we can help you enhance your quality of life, ensuring safety and efficiency in your agricultural practices.</p>
+      </div>
+      <div className='px-5 mt-[5vh]'>
+        <img className='w-[90vw]' src={GG} alt="" />
+      </div>
+      <div className='px-5 mt-[7vh] ml-[28vw]'>
+        <p className='font-light  '>By eliminating the need for frequent, time-consuming trips to the fields, you can now focus on what truly matters. Enjoy peace of mind knowing that your pump operations are handled efficiently and safely, reducing the risk of injuries and accidents. Our technology not only makes farming easier but also allows you to spend more quality time with loved ones, nurturing relationships and creating lasting memories.</p>
+      </div>
+      <div className='px-5 mt-[7vh]'>
+        <p className='font-normal text-lg'>We understand the challenges and risks involved in traditional farming methods. Our mission is to provide you with the tools to overcome these challenges, making your agricultural tasks more manageable and less hazardous. With our innovative solution, you gain control over your operations, protect yourself from potential dangers, and achieve a better work-life balance.</p>
+      </div>
+      <div className='px-8 my-[10vh] text-center'>
+        <h1 className='font-[Futura-Bold] text-4xl capitalize'>Thank you so much for considering our product; it means a lot for us</h1>
+      </div>
+      <div className='flex justify-center mt-[3vh]'>
+        <img className='w-[90vw]' src={Last} alt="" />
+      </div>
+      <div className='px-5 my-[5vh]'>
+        <p  className='font-light text-sm capitalize  '>We are proud and privileged to support the farmers of India and to be part of a long tradition of community and agriculture. We acknowledge that Indian farmers are the backbone of our nation, with a deep connection to the land, water, and sky. Their traditions and knowledge have sustained us for generations and continue to do so today. We pay our deep respects to the farmers, past, present, and future, for they hold the memories, traditions, culture, and hopes of our agricultural heritage. Always was, always will be, the land of the farmers.</p>
+      </div>
+      <div className='flex justify-center'>
+        <div className='w-[90vw] border-[.5px] border-[#0000008b]'></div>
+      </div>
+      <div className='my-[3vh] text-center'>
+        <p className='font-light text-xs'>Copyright © 2024 Agromate All Right Reserved.</p>
       </div>
     </div>
   )
