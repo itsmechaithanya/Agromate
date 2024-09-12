@@ -11,17 +11,15 @@ import G from '../assets/G.png'
 import GG from '../assets/GG.png'
 import Last from '../assets/Last.png'
 
-
-
 function Homee() {
   return (
     <div className='mt-[10vh]'>
-      <div className='lg:flex'>
+      <div className='lg:flex lg:px-[3vw] lg:h-[70vh] lg:justify-center lg:items-center'>
         <div className='lg:w-[60vw]'>
-          <div className='text-center mt-[5vh] lg:text-start lg:pl-5 '>
+          <div className='text-center mt-[5vh] lg:text-start '>
             <h1 className='font-[Futura-Bold] text-[9vw] lg:text-[4vw] uppercase'>Mobile-Operated Agricultural Motor System</h1>
           </div>
-          <div className='text-center px-5 mt-[2vh] '>
+          <div className='text-center px-5 mt-[2vh] lg:px-0 lg:text-start '>
             <p>Control Your Motor Pump with a Simple Missed Call, Anytime, Anywhere!</p>
           </div>
         </div>

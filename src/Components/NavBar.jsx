@@ -7,7 +7,7 @@ function NavBar() {
     <div className='w-screen h-[7vh] flex justify-between items-center px-5 lg:p-10 fixed bg-white top-0'>
       <div>
         <Link to="/">
-          <img className='w-[35vw] lg:w-[13vw] pt-3' src={logo} alt="" />
+          <img className='w-[35vw] lg:w-[11vw] pt-3' src={logo} alt="" />
         </Link>
       </div>
       <div className='lg:hidden mr-1 mt-1'>
