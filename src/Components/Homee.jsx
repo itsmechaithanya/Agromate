@@ -3,6 +3,12 @@ import hero from '../assets/hero.png'
 import buff from '../assets/buff.png'
 import AgromateKisan from '../assets/AgromateKisan.png'
 import AgromatePlus from '../assets/AgromatePlus.png'
+import AgromateEPlus from '../assets/AgromateEPlus.png'
+import AgromateIVRS from '../assets/AgromateIVRS.png'
+import IESA from '../assets/IESA.png'
+import ICRISAT from '../assets/ICRISAT.png'
+import G from '../assets/G.png'
+
 
 
 function Homee() {
@@ -63,7 +69,7 @@ function Homee() {
         <img className='w-[70vw]' src={AgromatePlus} alt="" />
       </div>
       <div className='text-center'>
-        <h1 className='font-semibold text-lg capitalize text-zinc-600'>Agromate Kisan</h1>
+        <h1 className='font-semibold text-lg capitalize text-zinc-600'>Agromate Plus</h1>
       </div>
       <div className='px-8 mt-[3vh]'>
         <p className='font-light  ' >Agromate Plus is a telemetric device for remote motor control. Designed for farmers, it offers remote motor management through a simple missed call, with an LCD screen for status display, and a manual ON/OFF option.</p>
@@ -72,28 +78,55 @@ function Homee() {
         <p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>Know more</p>
       </div>
       <div className='flex justify-center mt-[10vh]'>
-        <img className='w-[70vw]' src={AgromatePlus} alt="" />
+        <img className='w-[70vw]' src={AgromateEPlus} alt="" />
       </div>
       <div className='text-center'>
-        <h1 className='font-semibold text-lg capitalize text-zinc-600'>Agromate Kisan</h1>
+        <h1 className='font-semibold text-lg capitalize text-zinc-600'>Agromate E-Plus</h1>
       </div>
       <div className='px-8 mt-[3vh]'>
-        <p className='font-light  ' >Agromate Plus is a telemetric device for remote motor control. Designed for farmers, it offers remote motor management through a simple missed call, with an LCD screen for status display, and a manual ON/OFF option.</p>
+        <p className='font-light  ' >Agromate E-Plus is an advanced telemetric device for remote motor control. Supports 4G SIM cards from all operators with 2G/3G compatibility. Features an IVRS for phone call-based operations and timer-based functions.</p>
       </div>
       <div className='pl-8 mt-[2vh]'>
         <p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>Know more</p>
       </div>
       <div className='flex justify-center mt-[10vh]'>
-        <img className='w-[70vw]' src={AgromatePlus} alt="" />
+        <img className='w-[70vw]' src={AgromateIVRS} alt="" />
       </div>
       <div className='text-center'>
-        <h1 className='font-semibold text-lg capitalize text-zinc-600'>Agromate Kisan</h1>
+        <h1 className='font-semibold text-lg capitalize text-zinc-600'>Agromate IVRS</h1>
       </div>
       <div className='px-8 mt-[3vh]'>
-        <p className='font-light  ' >Agromate Plus is a telemetric device for remote motor control. Designed for farmers, it offers remote motor management through a simple missed call, with an LCD screen for status display, and a manual ON/OFF option.</p>
+        <p className='font-light  ' >Agromate IVRS is an upgraded version of Agromate Plus, offering voice-out functionality for audible motor status. Designed for farmers, it enables remote motor control via phone calls, with activation and deactivation support. Includes an LCD screen for status display and manual ON/OFF option.</p>
       </div>
       <div className='pl-8 mt-[2vh]'>
         <p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>Know more</p>
+      </div>
+      <div className='px-5 mt-[3vh]'>
+        <h1 className='font-bold text-[4.2vw]'>The product has been honored with the IESA Technovation Award, recognizing its exceptional innovation and excellence in the electronics and semiconductor industry.</h1>
+      </div>
+      <div className='flex justify-center mt-[3vh]'>
+        <img className='w-[90vw]' src={IESA} alt="" />
+      </div>
+      <div className='px-5 mt-[3vh]'>
+        <p className='font-light  '>The IESA Technovation Award is presented by the Indian Electronics and Semiconductor Association (IESA) to recognize outstanding contributions and innovations in the electronics and semiconductor sectors. It honors advancements that demonstrate significant impact and leadership in technology.</p>
+      </div>
+      <div className='px-5 mt-[3vh]'>
+        <h1 className='font-bold text-[4.2vw]'>In September 2023, the ICRISAT Certificate of Appreciation was awarded, highlighting the product’s significant impact and contribution to the field.</h1>
+      </div>
+      <div className='flex justify-center mt-[3vh]'>
+        <img className='w-[90vw]' src={ICRISAT} alt="" />
+      </div>
+      <div className='px-5 mt-[3vh]'>
+        <p className='font-light  '>The ICRISAT Certificate of Appreciation is awarded by the International Crops Research Institute for the Semi-Arid Tropics (ICRISAT) to acknowledge significant contributions and achievements in agricultural research and development. It recognizes individuals or organizations for their impactful work and dedication to improving agricultural practices and food security.</p>
+      </div>
+      <div className='px-5 mt-[3vh] w-1/2'>
+        <h1 className='font-bold text-[1.9vh] font-[Futura-Bold]'>We don’t simply offer a product.</h1>
+      </div>
+      <div className='px-5 mt-[3vh]'>
+        <img className='w-[65vw]' src={G} alt="" />
+      </div>
+      <div className='px-5 mt-[3vh] ml-[28vw]'>
+        <p className='font-light  '>We provide a tool that empowers you to transform your daily life. Our solution enables you to operate your motor pump from the comfort of your home, automating pump operations and freeing up valuable time for family and personal moments. After years of manual labor and potential hazards, such as snake bites, we believe that by introducing this innovative technology, we can help you enhance your quality of life, ensuring safety and efficiency in your agricultural practices.</p>
       </div>
     </div>
   )
