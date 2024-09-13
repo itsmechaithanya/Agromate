@@ -22,7 +22,7 @@ function Homee() {
           <div className='text-center px-5 mt-[2vh] lg:px-0 lg:text-start lg:text-xl w-2/3 '>
             <p>Control Your Motor Pump with a Simple Missed Call, Anytime, Anywhere!</p>
           </div>
-        </div>
+        </div> 
         <div className='lg:w[40vw]'>
           <div className='flex justify-center'>
             <img className='w-[90vw] mt-[2vh] lg:w-[40vw]' src={hero} alt="" />
