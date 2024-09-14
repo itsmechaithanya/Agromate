@@ -15,11 +15,11 @@ function Homee() {
   return (
     <div className='mt-[10vh]'>
       <div className='lg:flex lg:px-[3vw] lg:h-[70vh] lg:justify-center lg:items-center'>
-        <div className='lg:w-[60vw]'>
+        <div className='lg:w-[60vw] lg:pl-[2vw]'>
           <div className='text-center mt-[5vh] lg:text-start '>
             <h1 className='font-[Futura-Bold] text-[9vw] lg:text-[4.7vw] uppercase'>Mobile-Operated Agricultural Motor System</h1>
           </div>
-          <div className='text-center px-5 mt-[2vh] lg:px-0 lg:text-start lg:text-xl w-2/3 '>
+          <div className='text-center px-5 mt-[2vh] lg:px-0 lg:text-start lg:text-xl lg:w-2/3 '>
             <p>Control Your Motor Pump with a Simple Missed Call, Anytime, Anywhere!</p>
           </div>
         </div> 
@@ -30,7 +30,7 @@ function Homee() {
         </div>
       </div>
       <div>
-        <h1 className='font-[Futura-Bold] mt-[5vh] px-5 text-[1.9vh] uppercase'>Effortlessly manage your motor pump, saving time, energy, and resources.</h1>
+        <h1 className='font-[Futura-Bold] mt-[5vh] px-5 text-[1.9vh] uppercase lg:text-[3vh]'>Effortlessly manage your motor pump, saving time, energy, and resources.</h1>
       </div>
       <div className='flex justify-center mt-[5vh]'>
         <img className='w-[90vw]' src={buff} alt="" />
