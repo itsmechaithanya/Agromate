@@ -39,8 +39,10 @@ function Homee() {
         </div>
       </div>
       <div className='lg:flex flex-col-reverse'>
-        <div className='lg:flex  lg:px-[5vw]'>
-          <h1 className='font-[Futura-Bold] mt-[5vh] px-5 text-[1.9vh] uppercase lg:text-[3vh] lg:w-2/3'>Effortlessly manage your motor pump, saving time, energy, and resources.</h1>
+        <div className='lg:flex  lg:px-[2vw]'>
+          <div className='lg:w-2/3'>
+          <h1 className='font-[Futura-Bold] mt-[5vh] px-5 text-[1.9vh] uppercase lg:text-[2.5vw] lg:w-2/3 '>Effortlessly manage your motor pump, saving time, energy, and resources.</h1>
+          </div>
           <div className='lg:w-1/3'>
             <div className='px-5 mt-[5vh]'>
             <p className='font-light text-[#323232]'>At Agromate, everything we do is designed to empower farmers with ease and efficiency. Our Telemetric Electronic Device enables effortless management of motor pumps, saving time, energy, and resources.</p>
@@ -57,62 +59,76 @@ function Homee() {
           <img className='w-[90vw] lg:w-[95vw]' src={buff} alt="" />
         </div>
       </div>
-      <div className='px-5 mt-[8vh]'>
-        <h1 className='font-semibold'>Agromate lets you control your water motor pump directly from your mobile phone, no matter where you are. With just a missed call from your smartphone, you can start or stop the pump effortlessly.</h1>
+      <div className='px-5 mt-[8vh] lg:px-[3vw]'>
+        <h1 className='font-semibold lg:text-[2.7vw]'>Agromate lets you control your water motor pump directly from your mobile phone, no matter where you are. With just a missed call from your smartphone, you can start or stop the pump effortlessly.</h1>
       </div>
-      <div className='px-5 mt-[2vh]'>
-        <p className='font-light text-[#323232]' >This groundbreaking technology offers more than just convenience. By using Agromate, you cut down on physical visits to your motor pump, leading to significant savings in electricity, time, and water resources.</p>
+      <div className='px-5 mt-[2vh] lg:mt-[3vh] lg:px-[3vw]'>
+        <p className='font-light text-[#323232]  lg:w-4/5 lg:text-[1.3vw]' >This groundbreaking technology offers more than just convenience. By using Agromate, you cut down on physical visits to your motor pump, leading to significant savings in electricity, time, and water resources.</p>
       </div>
-      <div className='pl-5 mt-[3vh]'>
+      <div className='pl-5 mt-[3vh] lg:px-[3vw]'>
         <p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>installation guide</p>
       </div>
-      <div className='flex justify-center mt-[10vh]'>
-        <img className='w-[70vw]' src={AgromateKisan} alt="" />
+
+      <div className='lg:flex px-[3vw]'>
+        <div className='lg:w-1/3'>
+              <div className='flex justify-center mt-[10vh]'>
+                <img className='w-[70vw]' src={AgromateKisan} alt="" />
+              </div>
+        </div>
+        <div className='lg:w-2/3 lg:flex lg:flex-col lg:justify-center lg:px-[5vw]'>
+              <div className='text-center'>
+                <h1 className='font-semibold text-lg lg:text-start lg:px-8 capitalize lg:text-4xl'>Agromate Kisan</h1>
+              </div>
+              <div className='px-8 mt-[3vh]'>
+                <p className='font-light  ' >Agromate Kisan, a farmer-friendly device with remote motor control. It simplifies motor management, allowing ON/OFF with a missed call, using LED indicators instead of an LCD screen. It also offers manual ON/OFF for flexibility.</p>
+              </div>
+              <div className='pl-8 mt-[2vh]'>
+                <p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>Know more</p>
+              </div>
+        </div>
       </div>
-      <div className='text-center'>
-        <h1 className='font-semibold text-lg capitalize text-zinc-600'>Agromate Kisan</h1>
+
+      <div>
+          <div className='flex justify-center mt-[10vh]'>
+            <img className='w-[70vw]' src={AgromatePlus} alt="" />
+          </div>
+          <div className='text-center'>
+            <h1 className='font-semibold text-lg capitalize text-zinc-600'>Agromate Plus</h1>
+          </div>
+          <div className='px-8 mt-[3vh]'>
+            <p className='font-light  ' >Agromate Plus is a telemetric device for remote motor control. Designed for farmers, it offers remote motor management through a simple missed call, with an LCD screen for status display, and a manual ON/OFF option.</p>
+          </div>
+          <div className='pl-8 mt-[2vh]'>
+            <p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>Know more</p>
+          </div>
       </div>
-      <div className='px-8 mt-[3vh]'>
-        <p className='font-light  ' >Agromate Kisan, a farmer-friendly device with remote motor control. It simplifies motor management, allowing ON/OFF with a missed call, using LED indicators instead of an LCD screen. It also offers manual ON/OFF for flexibility.</p>
+      <div>
+          <div className='flex justify-center mt-[10vh]'>
+            <img className='w-[70vw]' src={AgromateEPlus} alt="" />
+          </div>
+          <div className='text-center'>
+            <h1 className='font-semibold text-lg capitalize text-zinc-600'>Agromate E-Plus</h1>
+          </div>
+          <div className='px-8 mt-[3vh]'>
+            <p className='font-light  ' >Agromate E-Plus is an advanced telemetric device for remote motor control. Supports 4G SIM cards from all operators with 2G/3G compatibility. Features an IVRS for phone call-based operations and timer-based functions.</p>
+          </div>
+          <div className='pl-8 mt-[2vh]'>
+            <p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>Know more</p>
+          </div>
       </div>
-      <div className='pl-8 mt-[2vh]'>
-        <p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>Know more</p>
-      </div>
-      <div className='flex justify-center mt-[10vh]'>
-        <img className='w-[70vw]' src={AgromatePlus} alt="" />
-      </div>
-      <div className='text-center'>
-        <h1 className='font-semibold text-lg capitalize text-zinc-600'>Agromate Plus</h1>
-      </div>
-      <div className='px-8 mt-[3vh]'>
-        <p className='font-light  ' >Agromate Plus is a telemetric device for remote motor control. Designed for farmers, it offers remote motor management through a simple missed call, with an LCD screen for status display, and a manual ON/OFF option.</p>
-      </div>
-      <div className='pl-8 mt-[2vh]'>
-        <p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>Know more</p>
-      </div>
-      <div className='flex justify-center mt-[10vh]'>
-        <img className='w-[70vw]' src={AgromateEPlus} alt="" />
-      </div>
-      <div className='text-center'>
-        <h1 className='font-semibold text-lg capitalize text-zinc-600'>Agromate E-Plus</h1>
-      </div>
-      <div className='px-8 mt-[3vh]'>
-        <p className='font-light  ' >Agromate E-Plus is an advanced telemetric device for remote motor control. Supports 4G SIM cards from all operators with 2G/3G compatibility. Features an IVRS for phone call-based operations and timer-based functions.</p>
-      </div>
-      <div className='pl-8 mt-[2vh]'>
-        <p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>Know more</p>
-      </div>
-      <div className='flex justify-center mt-[10vh]'>
-        <img className='w-[70vw]' src={AgromateIVRS} alt="" />
-      </div>
-      <div className='text-center'>
-        <h1 className='font-semibold text-lg capitalize text-zinc-600'>Agromate IVRS</h1>
-      </div>
-      <div className='px-8 mt-[3vh]'>
-        <p className='font-light  ' >Agromate IVRS is an upgraded version of Agromate Plus, offering voice-out functionality for audible motor status. Designed for farmers, it enables remote motor control via phone calls, with activation and deactivation support. Includes an LCD screen for status display and manual ON/OFF option.</p>
-      </div>
-      <div className='pl-8 mt-[2vh]'>
-        <p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>Know more</p>
+      <div>
+          <div className='flex justify-center mt-[10vh]'>
+            <img className='w-[70vw]' src={AgromateIVRS} alt="" />
+          </div>
+          <div className='text-center'>
+            <h1 className='font-semibold text-lg capitalize text-zinc-600'>Agromate IVRS</h1>
+          </div>
+          <div className='px-8 mt-[3vh]'>
+            <p className='font-light  ' >Agromate IVRS is an upgraded version of Agromate Plus, offering voice-out functionality for audible motor status. Designed for farmers, it enables remote motor control via phone calls, with activation and deactivation support. Includes an LCD screen for status display and manual ON/OFF option.</p>
+          </div>
+          <div className='pl-8 mt-[2vh]'>
+            <p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>Know more</p>
+          </div>
       </div>
       <div className='px-5 mt-[3vh]'>
         <h1 className='font-bold text-[4.2vw]'>The product has been honored with the IESA Technovation Award, recognizing its exceptional innovation and excellence in the electronics and semiconductor industry.</h1>
