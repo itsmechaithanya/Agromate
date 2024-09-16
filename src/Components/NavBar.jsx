@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function NavBar() {
   return (
-    <div className='w-screen h-[7vh] flex justify-between items-center px-5 lg:p-10 fixed bg-white top-0'>
+    <div className='w-screen h-[7vh] backdrop-blur-md flex justify-between items-center px-5 lg:p-10 fixed bg-[#ffffff3f] top-0'>
       <div>
         <Link to="/">
           <img className='w-[35vw] lg:w-[11vw] pt-3' src={logo} alt="" />
@@ -18,7 +18,7 @@ function NavBar() {
         <Link to="/Shop">Shop</Link>
         <Link to="/Media">Media</Link>
         <Link to="/AboutUs">About Us</Link>
-        <Link className='bg-[#E8E8E8] py-1 px-3 rounded-full' to="/ContactUs">Contact Us</Link>
+        <Link className='bg-[#E8E8E8] font-medium py-2 px-3 rounded-full' to="/ContactUs">Contact Us</Link>
       </div>
     </div>
   )

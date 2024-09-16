@@ -1,4 +1,5 @@
 import React from 'react'
+import Lenis from 'lenis'
 import hero from '../assets/hero.png'
 import buff from '../assets/buff.png'
 import AgromateKisan from '../assets/AgromateKisan.png'
@@ -12,9 +13,17 @@ import GG from '../assets/GG.png'
 import Last from '../assets/Last.png'
 
 function Homee() {
+  const lenis = new Lenis()
+  function raf(time) {
+    lenis.raf(time)
+    requestAnimationFrame(raf)
+  }
+
+  requestAnimationFrame(raf)
   return (
+
     <div className='mt-[10vh]'>
-      <div className='lg:flex lg:px-[3vw] lg:h-[70vh] lg:justify-center lg:items-center'>
+      <div className='lg:flex lg:px-[3vw] lg:h-[73vh] lg:justify-center lg:items-center'>
         <div className='lg:w-[60vw] lg:pl-[2vw]'>
           <div className='text-center mt-[5vh] lg:text-start '>
             <h1 className='font-[Futura-Bold] text-[9vw] lg:text-[4.7vw] uppercase'>Mobile-Operated Agricultural Motor System</h1>
@@ -29,20 +38,24 @@ function Homee() {
           </div>
         </div>
       </div>
-      <div>
-        <h1 className='font-[Futura-Bold] mt-[5vh] px-5 text-[1.9vh] uppercase lg:text-[3vh]'>Effortlessly manage your motor pump, saving time, energy, and resources.</h1>
-      </div>
-      <div className='flex justify-center mt-[5vh]'>
-        <img className='w-[90vw]' src={buff} alt="" />
-      </div>
-      <div className='px-5 mt-[5vh]'>
-        <p className='font-light text-[#323232]'>At Agromate, everything we do is designed to empower farmers with ease and efficiency. Our Telemetric Electronic Device enables effortless management of motor pumps, saving time, energy, and resources.</p>
-      </div>
-      <div className='px-5 mt-[3vh]'>
-        <p className='font-light text-[#323232]'>With every purchase, you support farmers in regaining control and confidence in their agricultural endeavors. Your investment helps them achieve greater independence and sustainability in their work.</p>
-      </div>
-      <div className='pl-5 mt-[3vh]'>
-        <p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>Shop to support</p>
+      <div className='lg:flex flex-col-reverse'>
+        <div className='lg:flex  lg:px-[5vw]'>
+          <h1 className='font-[Futura-Bold] mt-[5vh] px-5 text-[1.9vh] uppercase lg:text-[3vh] lg:w-2/3'>Effortlessly manage your motor pump, saving time, energy, and resources.</h1>
+          <div className='lg:w-1/3'>
+            <div className='px-5 mt-[5vh]'>
+            <p className='font-light text-[#323232]'>At Agromate, everything we do is designed to empower farmers with ease and efficiency. Our Telemetric Electronic Device enables effortless management of motor pumps, saving time, energy, and resources.</p>
+            </div>
+            <div className='px-5 mt-[3vh]'>
+              <p className='font-light text-[#323232]'>With every purchase, you support farmers in regaining control and confidence in their agricultural endeavors. Your investment helps them achieve greater independence and sustainability in their work.</p>
+            </div>
+            <div className='pl-5 mt-[3vh]'>
+              <p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>Shop to support</p>
+            </div>
+          </div>
+        </div>
+        <div className='flex justify-center mt-[5vh]'>
+          <img className='w-[90vw] lg:w-[95vw]' src={buff} alt="" />
+        </div>
       </div>
       <div className='px-5 mt-[8vh]'>
         <h1 className='font-semibold'>Agromate lets you control your water motor pump directly from your mobile phone, no matter where you are. With just a missed call from your smartphone, you can start or stop the pump effortlessly.</h1>
