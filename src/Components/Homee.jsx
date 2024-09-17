@@ -38,7 +38,7 @@ function Homee() {
           </div>
         </div>
       </div>
-      <div className='lg:flex flex-col-reverse'> 
+      <div className='lg:flex flex-col-reverse'>
         <div className='lg:flex  lg:px-[2vw]'>
           <div className='lg:w-2/3'>
           <h1 className='font-[Futura-Bold] mt-[5vh] px-5 text-[1.9vh] uppercase lg:text-[2.5vw] lg:w-2/3 '>Effortlessly manage your motor pump, saving time, energy, and resources.</h1>
