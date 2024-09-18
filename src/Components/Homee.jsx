@@ -140,50 +140,55 @@ function Homee() {
               </div>
         </div>
       </div>
-      <div className='px-5 mt-[8vh] lg:px-[3vw]'>
+      <div className='px-5 mt-[8vh] lg:px-[3vw] lg:mt-[15vh]'>
         <h1 className='font-semibold lg:text-[2.7vw]'>The product has been honored with the IESA Technovation Award, recognizing its exceptional innovation and excellence in the electronics and semiconductor industry.</h1>
       </div>
-      <div className='flex justify-center mt-[3vh]'>
-        <img className='w-[90vw]' src={IESA} alt="" />
+      <div className='flex justify-center mt-[3vh] lg:mt-[8vh]'>
+        <img className='w-[90vw] lg:w-[70vw]' src={IESA} alt="" />
       </div>
       <div className='px-5 mt-[3vh]'>
-        <p className='font-light  '>The IESA Technovation Award is presented by the Indian Electronics and Semiconductor Association (IESA) to recognize outstanding contributions and innovations in the electronics and semiconductor sectors. It honors advancements that demonstrate significant impact and leadership in technology.</p>
+        <p className='font-light lg:px-[3vw] lg:mt-[8vh] lg:text-xl '>The IESA Technovation Award is presented by the Indian Electronics and Semiconductor Association (IESA) to recognize outstanding contributions and innovations in the electronics and semiconductor sectors. It honors advancements that demonstrate significant impact and leadership in technology.</p>
+      </div>
+      <div className='px-5 mt-[8vh] lg:px-[3vw] lg:mt-[10vh]'>
+        <h1 className='font-semibold lg:text-[2.7vw]'>In September 2023, the ICRISAT Certificate of Appreciation was awarded, highlighting the product’s significant impact and contribution to the field.</h1>
+      </div>
+      <div className='flex justify-center mt-[3vh] lg:mt-[8vh]'>
+        <img className='w-[90vw] lg:w-[70vw]' src={ICRISAT} alt="" />
       </div>
       <div className='px-5 mt-[3vh]'>
-        <h1 className='font-bold text-[4.2vw]'>In September 2023, the ICRISAT Certificate of Appreciation was awarded, highlighting the product’s significant impact and contribution to the field.</h1>
+        <p className='font-light lg:px-[3vw] lg:mt-[8vh] lg:text-xl '>The ICRISAT Certificate of Appreciation is awarded by the International Crops Research Institute for the Semi-Arid Tropics (ICRISAT) to acknowledge significant contributions and achievements in agricultural research and development. It recognizes individuals or organizations for their impactful work and dedication to improving agricultural practices and food security.</p>
       </div>
-      <div className='flex justify-center mt-[3vh]'>
-        <img className='w-[90vw]' src={ICRISAT} alt="" />
+
+      <div className='px-5 mt-[3vh] w-1/2 lg:px-[3vw] lg:mt-[13vh]'>
+        <h1 className='font-bold text-[1.9vh] font-[Futura-Bold] lg:text-[2.5vw] lg:w-1/2 capitalize'>We don't simply offer a product.</h1>
+      </div>
+      <div className='lg:flex lg:px-[3vw]'>
+        <div className='px-5 mt-[5vh] lg:w-1/2'>
+          <img className='w-[65vw] lg:w-[35vw]' src={G} alt="" />
+        </div>
+        <div className='px-5 mt-[7vh] ml-[28vw] lg:w-1/2 lg:flex lg:justify-center lg:items-center lg:-ml-[5vw] lg:text-xl '>
+          <p className='font-light  '>We provide a tool that empowers you to transform your daily life. Our solution enables you to operate your motor pump from the comfort of your home, automating pump operations and freeing up valuable time for family and personal moments. After years of manual labor and potential hazards, such as snake bites, we believe that by introducing this innovative technology, we can help you enhance your quality of life, ensuring safety and efficiency in your agricultural practices.</p>
+        </div>
+      </div>
+      <div className='lg:flex lg:flex-row-reverse lg:px-[3vw]  '>
+        <div className='px-5 mt-[5vh] lg:w-2/3 lg:flex lg:items-center lg:justify-end'>
+          <img className='w-[90vw] lg:w-[50vw]' src={GG} alt="" />
+        </div>
+        <div className='px-5 mt-[7vh] ml-[28vw] lg:ml-[0vw] lg:w-1/3 lg:flex  lg:justify-center lg:items-center lg:text-xl lg:px-0 lg:pl-5 '>
+          <p className='font-light '>By eliminating the need for frequent, time-consuming trips to the fields, you can now focus on what truly matters. Enjoy peace of mind knowing that your pump operations are handled efficiently and safely, reducing the risk of injuries and accidents. Our technology not only makes farming easier but also allows you to spend more quality time with loved ones, nurturing relationships and creating lasting memories.</p>
+        </div>
       </div>
       <div className='px-5 mt-[3vh]'>
-        <p className='font-light  '>The ICRISAT Certificate of Appreciation is awarded by the International Crops Research Institute for the Semi-Arid Tropics (ICRISAT) to acknowledge significant contributions and achievements in agricultural research and development. It recognizes individuals or organizations for their impactful work and dedication to improving agricultural practices and food security.</p>
+        <p className='font-light lg:px-[3vw] lg:mt-[8vh] lg:text-xl '>We understand the challenges and risks involved in traditional farming methods. Our mission is to provide you with the tools to overcome these challenges, making your agricultural tasks more manageable and less hazardous. With our innovative solution, you gain control over your operations, protect yourself from potential dangers, and achieve a better work-life balance.</p>
       </div>
-      <div className='px-5 mt-[3vh] w-1/2'>
-        <h1 className='font-bold text-[1.9vh] font-[Futura-Bold]'>We don’t simply offer a product.</h1>
-      </div>
-      <div className='px-5 mt-[5vh]'>
-        <img className='w-[65vw]' src={G} alt="" />
-      </div>
-      <div className='px-5 mt-[7vh] ml-[28vw]'>
-        <p className='font-light  '>We provide a tool that empowers you to transform your daily life. Our solution enables you to operate your motor pump from the comfort of your home, automating pump operations and freeing up valuable time for family and personal moments. After years of manual labor and potential hazards, such as snake bites, we believe that by introducing this innovative technology, we can help you enhance your quality of life, ensuring safety and efficiency in your agricultural practices.</p>
-      </div>
-      <div className='px-5 mt-[5vh]'>
-        <img className='w-[90vw]' src={GG} alt="" />
-      </div>
-      <div className='px-5 mt-[7vh] ml-[28vw]'>
-        <p className='font-light  '>By eliminating the need for frequent, time-consuming trips to the fields, you can now focus on what truly matters. Enjoy peace of mind knowing that your pump operations are handled efficiently and safely, reducing the risk of injuries and accidents. Our technology not only makes farming easier but also allows you to spend more quality time with loved ones, nurturing relationships and creating lasting memories.</p>
-      </div>
-      <div className='px-5 mt-[7vh]'>
-        <p className='font-normal text-lg'>We understand the challenges and risks involved in traditional farming methods. Our mission is to provide you with the tools to overcome these challenges, making your agricultural tasks more manageable and less hazardous. With our innovative solution, you gain control over your operations, protect yourself from potential dangers, and achieve a better work-life balance.</p>
-      </div>
-      <div className='px-8 my-[10vh] text-center'>
-        <h1 className='font-[Futura-Bold] text-4xl capitalize'>Thank you so much for considering our product; it means a lot for us</h1>
+      <div className='px-8 my-[10vh] text-center lg:px-[10vw] lg:py-[5vh] '>
+        <h1 className='font-[Futura-Bold] text-4xl capitalize lg:text-7xl lg:leading-[6vw]'>Thank you so much for considering our product; it means a lot for us</h1>
       </div>
       <div className='flex justify-center mt-[3vh]'>
         <img className='w-[90vw]' src={Last} alt="" />
       </div>
       <div className='px-5 my-[5vh]'>
-        <p  className='font-light text-sm capitalize  '>We are proud and privileged to support the farmers of India and to be part of a long tradition of community and agriculture. We acknowledge that Indian farmers are the backbone of our nation, with a deep connection to the land, water, and sky. Their traditions and knowledge have sustained us for generations and continue to do so today. We pay our deep respects to the farmers, past, present, and future, for they hold the memories, traditions, culture, and hopes of our agricultural heritage. Always was, always will be, the land of the farmers.</p>
+        <p className='font-light lg:px-[3vw] lg:mt-[8vh] lg:text-xl '>We are proud and privileged to support the farmers of India and to be part of a long tradition of community and agriculture. We acknowledge that Indian farmers are the backbone of our nation, with a deep connection to the land, water, and sky. Their traditions and knowledge have sustained us for generations and continue to do so today. We pay our deep respects to the farmers, past, present, and future, for they hold the memories, traditions, culture, and hopes of our agricultural heritage. Always was, always will be, the land of the farmers.</p>
       </div>
       <div className='flex justify-center'>
         <div className='w-[90vw] border-[.5px] border-[#0000008b]'></div>
