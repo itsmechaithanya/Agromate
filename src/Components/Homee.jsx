@@ -33,7 +33,7 @@ function Homee() {
           </div>
         </div> 
         <div className='lg:w[40vw]'>
-          <div className='flex justify-center'> 
+          <div className='flex justify-center'>  
             <img className='w-[90vw] mt-[2vh] lg:w-[40vw]' src={hero} alt="" />
           </div>
         </div>
