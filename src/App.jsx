@@ -7,6 +7,8 @@ import Shop from './Components/Shop'
 import Media from './Components/Media'
 import AboutUs from './Components/AboutUs'
 import ContactUs from './Components/ContactUs'
+import Cart from './Components/Cart'
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         <Route path='/Media' element={<Media/>}/>
         <Route path='/AboutUs' element={<AboutUs/>}/>
         <Route path='/ContactUs' element={<ContactUs/>}/>
+        <Route path='/Cart' element={<Cart/>}/>
       </Routes> 
     </>
   )

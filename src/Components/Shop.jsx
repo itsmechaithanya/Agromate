@@ -3,23 +3,16 @@ import React from 'react'
 import Image from "../assets/G.png"
 function Shop() {
   return (
-    <div className="product m-20">
-     
-
-      <div className="product-info">
-        <Card
-      size="small"
-      title="Small size card"
-      extra={<a href="#">More</a>}
-      style={{
-        width: 300,
-      }}
-      cover={<img src={Image} alt="Product Image" />}
-    > 
-      <h3 className='text-xl pb-4'>Agromate Plus</h3>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error recusandae temporibus, neque quos cumque accusantium tempore aperiam suscipit unde! Corrupti, provident sit! Corporis nihil a, id eaque labore cum eos!</p>
-     <div className='flex pt-4 justify-between items-center'> <p>Rs. 10</p><Button>Buy now</Button></div>
-    </Card>
+    <div className="pt-[11vh]">
+      <div className='h-[60vh] flex items-center pl-[5vw]'>
+        <h1 className='capitalize text-[4.5vw] font-bold text-[#2F2F69] '>We offer you <br /> the best <i class="ri-arrow-right-down-line"></i></h1>
+      </div>
+      <div className='flex justify-end'><h1>0 items in <i className="ri-shopping-cart-line font-medium"></i> </h1> </div>
+      <div className='mt-[5vh]'>
+        <h1>Please take a look at the product list displayed below. You can choose to make your purchases online, and we will ensure swift delivery to your specified address. If you need installation support, we offer remote assistance, and you can access informative installation videos in the documents section.</h1>
+      </div>
+      <div>
+        <div className='h-[10vh] w-[20vw] bg-slate-200'></div>
       </div>
     </div>
   )
