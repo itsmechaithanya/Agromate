@@ -1,62 +1,25 @@
-import React, { useState } from 'react';
-import { PlusOutlined } from '@ant-design/icons';
-import {
-  Button,
-  Cascader,
-  Checkbox,
-  ColorPicker,
-  DatePicker,
-  Form,
-  Input,
-  InputNumber,
-  Radio,
-  Rate,
-  Select,
-  Slider,
-  Switch,
-  TreeSelect,
-  Upload,
-} from 'antd';
-const { RangePicker } = DatePicker;
-const { TextArea } = Input;
-const normFile = (e) => {
-  if (Array.isArray(e)) {
-    return e;
-  }
-  return e?.fileList;
-};
-const ContactUs = () => {
-  const [componentDisabled, setComponentDisabled] = useState(true);
+import React from 'react'
+
+function ContactUs() {
   return (
-    <div className='h-screen w-screen flex justify-center items-center'>
-     
-      <Form
-        labelCol={{
-          span: 4,
-        }}
-        wrapperCol={{
-          span: 14,
-        }}
-        layout="horizontal"
-        
-        style={{
-          maxWidth: 600,
-        }}
-      >
-       
-        <Form.Item label="Email">
-          <Input />
-        </Form.Item>
-        <Form.Item label="Password">
-          <Input />
-        </Form.Item>
-     
-       
-       <Button>Submit</Button>
-      
-      
-      </Form>
+    <div className='pt-[10vh] flex flex-col px-[5vw] py-[5vh] w-screen h-screen justify-between '>
+      <div>
+      <h1 className='text-[4.3vh] text-[#2F2F69] font-medium'>Get In Touch</h1>
+      <h1 className='pl-[1vw] font-medium'>NGE Agromate Private Limited</h1>
+      </div>
+      <div className='bg-zinc-200 px-[5vw] pb-[25vh] rounded-xl'>
+      <h1 className='mt-[5vh] mb-[.5vh] font-bold text-lg'>Address</h1>
+      <h1 className=''>Metro Pillar Number KHANP7, Kochar Apartments, G6, C1363, Begumpet
+          Hyderabad, Telangana 500016
+          India
+      </h1>
+      <h1 className='mt-[5vh] mb-[.5vh] font-bold text-lg'>Phone:</h1>
+      <h1>+91 93473 46290</h1>
+      <h1 className='mt-[5vh] mb-[.5vh] font-bold text-lg'>Email:</h1>
+      <h1>sales@agromate.in <br/>support@agromate.in</h1>
+      </div>
     </div>
-  );
-};
+  )
+}
+
 export default ContactUs
