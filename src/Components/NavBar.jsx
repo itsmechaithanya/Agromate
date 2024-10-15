@@ -17,7 +17,7 @@ function NavBar() {
         <Link to="/HowItWorks">How it works ?</Link>
         <Link to="/Shop">Shop</Link>
         <Link to="/Media">Media</Link>
-        <Link to="/AboutUs">About Us</Link>
+        <Link to="/AboutUs">About</Link>
         <Link className='bg-[#E8E8E8] font-medium py-2 px-3 rounded-full' to="/ContactUs">Contact Us</Link>
       </div>
     </div>
