@@ -1,3 +1,5 @@
+import FuturaBold from '/Users/chaithanya/Documents/Sheryians Coding School/agromate/Agromate/src/assets/Fonts/Futura-Bold.ttf'
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -7,7 +9,7 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        FuturaBold:"Futura-Bold",
+        FuturaBold:"FuturaBold",
         Poppins:"Poppins"
       }
     },
