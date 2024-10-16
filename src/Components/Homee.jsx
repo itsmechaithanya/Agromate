@@ -162,7 +162,7 @@ function Homee() {
       </div>
 
       <div className='px-5 mt-[3vh] w-1/2 lg:px-[3vw] lg:mt-[13vh]'>
-        <h1 className='font-bold text-[1.9vh] font-[Futura-Bold] lg:text-[2.5vw] lg:w-1/2 capitalize'>We don't simply offer a product.</h1>
+        <h1 className='font-bold text-[1.9vh] lg:text-[2.5vw] lg:w-1/2 capitalize'>We don't simply offer a product.</h1>
       </div>
       <div className='lg:flex lg:px-[3vw]'>
         <div className='px-5 mt-[5vh] lg:w-1/2'>
@@ -184,7 +184,7 @@ function Homee() {
         <p className='font-light lg:px-[3vw] lg:mt-[8vh] lg:text-xl '>We understand the challenges and risks involved in traditional farming methods. Our mission is to provide you with the tools to overcome these challenges, making your agricultural tasks more manageable and less hazardous. With our innovative solution, you gain control over your operations, protect yourself from potential dangers, and achieve a better work-life balance.</p>
       </div>
       <div className='px-8 my-[10vh] text-center lg:px-[10vw] lg:py-[5vh] '>
-        <h1 className='font-[Futura-Bold] text-4xl capitalize lg:text-7xl lg:leading-[6vw]'>Thank you so much for considering our product; it means a lot for us</h1>
+        <h1 className='font-bold text-4xl capitalize lg:text-7xl lg:leading-[6vw]'>Thank you so much for considering our product; it means a lot for us</h1>
       </div>
       <div className='flex justify-center mt-[3vh]'>
         <img className='w-[90vw]' src={Last} alt="" />
