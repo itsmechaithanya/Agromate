@@ -11,12 +11,13 @@ function AboutUs() {
 
   return (
     <div className='pt-[11vh]'>
-      <div className='h-[60vh] flex items-center pl-[5vw]'>
+      <div className='h-[50vh] flex items-center pl-[5vw]'>
         <h1 className='capitalize text-[4.5vw] font-bold text-[#2F2F69] '>We Always Make <br />the Best <i class="ri-arrow-right-down-line"></i></h1>
       </div>
-      <div className='flex px-[2vw]'>
-        <div className='w-1/2 bg-slate-500'>
-          <img className='h-[45vh] w-[50vw] object-cover' src={about} alt="About Us" />
+      <div className='bg-slate-100 pt-[7vw] rounded-t-[5vw]'>
+      <div className='flex ml-[3.5vw]'>
+        <div className='w-1/2'>
+          <img className='h-[45vh] w-[50vw] object-cover rounded-xl ' src={about} alt="About Us" />
         </div>
         <div className='w-1/2 h-[45vh] px-[4vw] flex flex-col justify-center'>
           <h1>The <span className='text-2xl font-bold font-FuturaBold text-[#2F2F69]'>Agromate</span> Telemetric Electronic Device represents a cutting-edge solution for modernizing the way you manage your motor pump. It provides you with the incredible ability to oversee and control your water motor pump directly from your mobile phone, regardless of your location. Imagine the convenience of being able to initiate or halt the operation of your pump with a mere missed call from your smartphone.</h1>
@@ -24,7 +25,7 @@ function AboutUs() {
           <Link to="/ContactUs"><h1 className='mt-[3vh] bg-[#2F2F69] w-fit px-[1vw] py-[1vh] text-white rounded-full'>Contact Us</h1></Link>
         </div>
       </div>
-      <div className='mt-[10vh] mb-[5vh] flex justify-center'>
+      <div className='mt-[20vh] mb-[5vh] flex justify-center'>
         <h1 className='text-2xl font-bold font-FuturaBold'>Let's Delve Deeper into These Advantages:</h1>
       </div>
       <div>
@@ -101,8 +102,9 @@ function AboutUs() {
       <div className='flex justify-center'>
         <div className='w-[90vw] border-[.5px] border-[#0000008b]'></div>
       </div>
-      <div className='my-[3vh] text-center'>
+      <div className='py-[3vh] text-center'>
         <p className='font-light text-xs'>Copyright © 2024 Agromate All Right Reserved.</p>
+      </div>
       </div>
     </div>
   )

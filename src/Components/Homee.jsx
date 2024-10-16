@@ -11,6 +11,7 @@ import ICRISAT from '../assets/ICRISAT.png'
 import G from '../assets/G.png'
 import GG from '../assets/GG.png'
 import Last from '../assets/Last.png'
+import { Link } from 'react-router-dom'
 
 function Homee() {
   const lenis = new Lenis()
@@ -26,9 +27,9 @@ function Homee() {
       <div className='lg:flex lg:px-[3vw] lg:h-[73vh] lg:justify-center lg:items-center'>
         <div className='lg:w-[60vw] lg:pl-[2vw]'>
           <div className='text-center mt-[5vh] lg:text-start '>
-            <h1 className='font-[Futura-Bold] text-[9vw] lg:text-[4.7vw] uppercase'>Mobile-Operated Agricultural Motor System</h1>
+            <h1 className='font-[Futura-Bold] text-[9vw] lg:text-[4.5vw] uppercase pr-[2vw] '>Mobile-Operated Agricultural Motor System</h1>
           </div>
-          <div className='text-center px-5 mt-[2vh] lg:px-0 lg:text-start lg:text-xl lg:w-2/3 '>
+          <div className='text-center px-5 mt-[2vh] lg:px-0 lg:text-start lg:text-xl lg:w-2/3 text-[#2F2F69] '>
             <p>Control Your Motor Pump with a Simple Missed Call, Anytime, Anywhere!</p>
           </div>
         </div> 
@@ -51,7 +52,7 @@ function Homee() {
               <p className='font-light text-[#323232]'>With every purchase, you support farmers in regaining control and confidence in their agricultural endeavors. Your investment helps them achieve greater independence and sustainability in their work.</p>
             </div>
             <div className='pl-5 mt-[3vh]'>
-              <p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>Shop to support</p>
+              <Link to="/Shop"><p className='uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>Shop to Support</p></Link>
             </div>
           </div>
         </div>
@@ -66,7 +67,8 @@ function Homee() {
         <p className='font-light text-[#323232]  lg:w-4/5 lg:text-[1.3vw]' >This groundbreaking technology offers more than just convenience. By using Agromate, you cut down on physical visits to your motor pump, leading to significant savings in electricity, time, and water resources.</p>
       </div>
       <div className='pl-5 mt-[3vh] lg:px-[3vw]'>
-        <p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>installation guide</p>
+        <Link to="/HowItWorks"><p className=' uppercase border-b-[1px] w-fit border-zinc-500 pb-1'>installation guide</p> </Link>
+        
       </div>
       <div className='lg:flex lg:justify-center lg:mt-[5vh]'>
         <div className='lg:w-1/3'>
