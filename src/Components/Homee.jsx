@@ -1,6 +1,6 @@
 import React from 'react'
 import Lenis from 'lenis'
-import hero from '../assets/hero.png'
+import hero from '../assets/hero2.png'
 import buff from '../assets/buff.png'
 import AgromateKisan from '../assets/AgromateKisan.png'
 import AgromatePlus from '../assets/AgromatePlus.png'
@@ -23,11 +23,11 @@ function Homee() {
   requestAnimationFrame(raf)
   return (
 
-    <div className='mt-[10vh]'>
+    <div className='pt-[10vh] bg-[#FAFAFA]'>
       <div className='lg:flex lg:px-[3vw] lg:h-[73vh] lg:justify-center lg:items-center'>
         <div className='lg:w-[60vw] lg:pl-[2vw]'>
           <div className='text-center mt-[5vh] lg:text-start '>
-            <h1 className='font-[Futura-Bold] text-[9vw] lg:text-[4.5vw] uppercase pr-[2vw] '>Mobile-Operated Agricultural Motor System</h1>
+            <h1 className=' capitalize text-[4.5vw] font-bold  lg:text-[4.5vw] pr-[2vw] '>Mobile-Operated Agricultural Motor System</h1>
           </div>
           <div className='text-center px-5 mt-[2vh] lg:px-0 lg:text-start lg:text-xl lg:w-2/3 text-[#2F2F69] '>
             <p>Control Your Motor Pump with a Simple Missed Call, Anytime, Anywhere!</p>
@@ -35,14 +35,14 @@ function Homee() {
         </div> 
         <div className='lg:w[40vw]'>
           <div className='flex justify-center'>  
-            <img className='w-[90vw] mt-[2vh] lg:w-[40vw]' src={hero} alt="" />
+            <img className='w-[90vw] lg:w-[55vw]' src={hero} alt="" />
           </div>
         </div>
       </div>
       <div className='lg:flex flex-col-reverse'>
         <div className='lg:flex  lg:px-[2vw]'>
           <div className='lg:w-2/3'>
-          <h1 className='font-[Futura-Bold] mt-[5vh] px-5 text-[1.9vh] uppercase lg:text-[2.5vw] lg:w-2/3 '>Effortlessly manage your motor pump, saving time, energy, and resources.</h1>
+          <h1 className='mt-[5vh] px-5 text-[1.9vh] uppercase lg:text-[2.5vw] lg:w-2/3  font-bold '>Effortlessly manage your motor pump, saving time, energy, and resources.</h1>
           </div>
           <div className='lg:w-1/3'>
             <div className='px-5 mt-[5vh]'>

@@ -18,7 +18,7 @@ function NavBar() {
         <Link to="/Media">Media</Link>
         <Link to="/AboutUs">About</Link>
         <Link to="/ContactUs">Contact Us</Link>
-        <Link className='bg-slate-300 font-medium py-[1vh] px-[2vw] rounded-full' to="/Shop">Shop <i className="ri-shopping-cart-line font-medium"></i></Link>
+        <Link className='bg-slate-200 font-medium py-[1vh] px-[2vw] rounded-full' to="/Shop">Shop <i className="ri-shopping-cart-line font-medium"></i></Link>
       </div>
     </div>
   )
