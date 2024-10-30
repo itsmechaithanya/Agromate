@@ -8,6 +8,7 @@ import Media from './Components/Media'
 import AboutUs from './Components/AboutUs'
 import ContactUs from './Components/ContactUs'
 import Cart from './Components/Cart'
+import Menu from './Components/Menu.jsx'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/AboutUs' element={<AboutUs/>}/>
         <Route path='/ContactUs' element={<ContactUs/>}/>
         <Route path='/Cart' element={<Cart/>}/>
+        <Route path='/Menu' element={<Menu/>}/>
       </Routes> 
     </>
   )

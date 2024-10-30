@@ -8,15 +8,15 @@ import Star from '../assets/Star.jpg'
 function HowItWorks() {
   return (
     <div className='pt-[11vh]'>
-            <div className=' h-[50vh] flex items-center pl-[5vw]'>
-        <h1 className='text-[#2F2F69] capitalize text-[4.5vw] font-bold '>How it works ?<br />Guide<i class="ri-arrow-right-down-line"></i></h1>
+            <div className=' lg:h-[50vh] h-[25vh] flex items-center pl-[5vw]'>
+        <h1 className='text-[#2F2F69] capitalize lg:text-[4.5vw] text-[4.5vh] font-bold '>How it works ?<br />Guide<i class="ri-arrow-right-down-line"></i></h1>
       </div>
-      <div className='px-[5vw] bg-slate-100 pt-[5vw] pb-[1vw] rounded-t-[5vw]'>
+      <div className='px-[5vw] bg-slate-100 lg:pt-[5vw] pt-[7vh] pb-[1vw] rounded-t-[3vh] lg:rounded-t-[5vw]'>
         <div><h1 className='text-xl'>Follow the steps below <i class="ri-arrow-down-s-line"></i></h1></div>
         <div className='flex flex-col justify-center items-center gap-[2vw] pt-[3vw]'>
-          <img className='h-[90vh] w-[80vw]' src={step1} alt="" />
-          <img className='h-[90vh] w-[80vw]' src={step2} alt="" />
-          <img className='h-[90vh] w-[80vw]' src={step3} alt="" />
+          <img className='lg:h-[90vh] h-[25vh] w-[80vw]' src={step1} alt="" />
+          <img className='lg:h-[90vh] h-[25vh] w-[80vw]' src={step2} alt="" />
+          <img className='lg:h-[90vh] h-[25vh] w-[80vw]' src={step3} alt="" />
       </div>
       <div className='pt-[5vw]'>
         <h1 className='text-xl pb-[3vw]'>Follow the below diagrams for connecting with DOL starter <i class="ri-arrow-down-s-line"></i></h1>
