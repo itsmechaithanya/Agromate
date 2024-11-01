@@ -19,7 +19,7 @@ function AboutUs() {
         <div className='lg:w-1/2'>
           <img className='h-[45vh] lg:w-[50vw] w-[92vw] object-cover rounded-xl ' src={about} alt="About Us" />
         </div>
-        <div className='lg:w-1/2 lg:mt-[0vh] mt-[10vh] h-[45vh] px-[4vw] flex flex-col justify-center'>
+        <div className='lg:w-1/2 lg:mt-[0vh] mt-[15vh] h-[45vh] px-[4vw] flex flex-col justify-center'>
           <h1>The <span className='text-2xl font-bold  text-[#2F2F69]'>Agromate</span> Telemetric Electronic Device represents a cutting-edge solution for modernizing the way you manage your motor pump. It provides you with the incredible ability to oversee and control your water motor pump directly from your mobile phone, regardless of your location. Imagine the convenience of being able to initiate or halt the operation of your pump with a mere missed call from your smartphone.</h1>
           <h1 className='mt-[3vh]'>This revolutionary technology offers a range of benefits that go far beyond mere convenience. By adopting Agromate, you significantly reduce the need for physical visits to your motor pump, which translates to substantial savings in terms of electricity, time, and water resources.</h1>
           <Link to="/ContactUs"><h1 className='mt-[3vh] bg-[#2F2F69] w-fit lg:px-[1vw] px-[2vh] py-[1vh] text-white rounded-full'>Contact Us</h1></Link>
