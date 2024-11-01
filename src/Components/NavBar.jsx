@@ -20,6 +20,7 @@ function NavBar() {
 
   const handleLinkClick = () => {
     setShowLinks(false)
+    window.scrollTo(0, 0) // This line ensures the page scrolls to the top when a link is clicked
   }
 
   return (
