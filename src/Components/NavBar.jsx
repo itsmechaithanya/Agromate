@@ -18,6 +18,10 @@ function NavBar() {
     }
   }, [])
 
+  const handleLinkClick = () => {
+    setShowLinks(false)
+  }
+
   return (
     <div ref={navRef} className={`lg:w-[97vw] w-[100vw] ${showLinks ? 'h-[50vh] pb-[7vh] lg:pb-[0vh]' : 'h-[8vh]'} backdrop-blur-lg flex flex-col lg:flex-row justify-between items-center px-5 lg:p-[4.5vh] lg:mt-[1.5vh] lg:mx-[1.5vw] lg:rounded-full lg:overflow-hidden fixed z-10 bg-[#ffffff3f] top-0`}>
       <div className='flex items-center justify-between lg:w-[35vw] w-[100vw]  h-[8vh] lg:px-[0vw] px-[5vw]'>
@@ -31,11 +35,11 @@ function NavBar() {
       </div>
       </div>
       <div className={`lg:flex ${showLinks ? 'flex flex-col font-semibold' : 'hidden'} gap-8 items-center`}>
-        <Link to="/HowItWorks">How it works ?</Link>
-        <Link to="/Media">Media</Link>
-        <Link to="/AboutUs">About</Link>
-        <Link to="/ContactUs">Contact Us</Link>
-        <Link className={`lg:bg-slate-200 bg-slate-500 lg:text-black text-white   font-medium py-[1vh] lg:px-[2vw] px-[7vw] rounded-full`} to="https://shop.agromate.in/shop/">Shop <i className="ri-shopping-cart-line font-medium"></i></Link>
+        <Link to="/HowItWorks" onClick={handleLinkClick}>How it works ?</Link>
+        <Link to="/Media" onClick={handleLinkClick}>Media</Link>
+        <Link to="/AboutUs" onClick={handleLinkClick}>About</Link>
+        <Link to="/ContactUs" onClick={handleLinkClick}>Contact Us</Link>
+        <Link className={`lg:bg-slate-200 bg-slate-500 lg:text-black text-white   font-medium py-[1vh] lg:px-[2vw] px-[7vw] rounded-full`} to="https://shop.agromate.in/shop/" onClick={handleLinkClick}>Shop <i className="ri-shopping-cart-line font-medium"></i></Link>
       </div>
     </div>
   )

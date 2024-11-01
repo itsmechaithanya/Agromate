@@ -1,6 +1,6 @@
 import React from 'react'
 import Lenis from 'lenis'
-import hero from '../assets/hero2.png'
+import hero from '../assets/hero2.jpeg'
 import buff from '../assets/buff.png'
 import AgromateKisan from '../assets/AgromateKisan.png'
 import AgromatePlus from '../assets/AgromatePlus.png'
@@ -35,7 +35,7 @@ function Homee() {
         </div> 
         <div className='lg:w[40vw]'>
           <div className='flex justify-center'>  
-            <img className='w-[90vw] lg:w-[55vw]' src="https://img.freepik.com/premium-vector/farmer-with-smartphone-technology-illustration-vector_201904-1401.jpg" alt="" />
+            <img className='w-[90vw] lg:w-[55vw]' src={hero} alt="" />
           </div>
         </div>
       </div>

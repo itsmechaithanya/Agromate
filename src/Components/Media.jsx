@@ -47,7 +47,7 @@ function Media() {
         </div>
         </div>
         <h1 className='mb-[3vh] mt-[7vh] font-medium text-[1.8vw]'>11th April 2015: TV5 News - TV5 Business Leaders 2015 Agromate</h1>
-        <div className='video w-[90vw] h-[90vh]'>
+        <div className='video w-[40vw] h-[40vh]'>
           <iframe
             width="100%"
             height="100%"
