@@ -11,38 +11,38 @@ function AboutUs() {
 
   return (
     <div className='pt-[11vh]'>
-      <div className='h-[50vh] flex items-center pl-[5vw]'>
-        <h1 className='capitalize text-[4.5vw] font-bold text-[#2F2F69] '>We Always Make <br />the Best <i class="ri-arrow-right-down-line"></i></h1>
+      <div className='lg:h-[50vh] h-[25vh] flex items-center pl-[5vw]'>
+        <h1 className='capitalize lg:text-[4.5vw] text-[4.5vh] font-bold text-[#2F2F69]'>We Always Make <br />the Best <i class="ri-arrow-right-down-line"></i></h1>
       </div>
       <div className='bg-slate-100 pt-[7vw] rounded-t-[5vw]'>
-      <div className='flex ml-[3.5vw]'>
-        <div className='w-1/2'>
-          <img className='h-[45vh] w-[50vw] object-cover rounded-xl ' src={about} alt="About Us" />
+      <div className='lg:flex ml-[3.5vw]'>
+        <div className='lg:w-1/2'>
+          <img className='h-[45vh] lg:w-[50vw] w-[92vw] object-cover rounded-xl ' src={about} alt="About Us" />
         </div>
-        <div className='w-1/2 h-[45vh] px-[4vw] flex flex-col justify-center'>
+        <div className='lg:w-1/2 lg:mt-[0vh] mt-[10vh] h-[45vh] px-[4vw] flex flex-col justify-center'>
           <h1>The <span className='text-2xl font-bold  text-[#2F2F69]'>Agromate</span> Telemetric Electronic Device represents a cutting-edge solution for modernizing the way you manage your motor pump. It provides you with the incredible ability to oversee and control your water motor pump directly from your mobile phone, regardless of your location. Imagine the convenience of being able to initiate or halt the operation of your pump with a mere missed call from your smartphone.</h1>
           <h1 className='mt-[3vh]'>This revolutionary technology offers a range of benefits that go far beyond mere convenience. By adopting Agromate, you significantly reduce the need for physical visits to your motor pump, which translates to substantial savings in terms of electricity, time, and water resources.</h1>
-          <Link to="/ContactUs"><h1 className='mt-[3vh] bg-[#2F2F69] w-fit px-[1vw] py-[1vh] text-white rounded-full'>Contact Us</h1></Link>
+          <Link to="/ContactUs"><h1 className='mt-[3vh] bg-[#2F2F69] w-fit lg:px-[1vw] px-[2vh] py-[1vh] text-white rounded-full'>Contact Us</h1></Link>
         </div>
       </div>
-      <div className='mt-[20vh] mb-[5vh] flex justify-center'>
-        <h1 className='text-2xl font-bold font-FuturaBold'>Let's Delve Deeper into These Advantages:</h1>
+      <div className='lg:mt-[20vh] mt-[15vh] mb-[5vh] flex justify-center lg:px-[0vw] px-[6vw]'>
+        <h1 className='text-2xl font-bold '>Let's Delve Deeper into These Advantages:</h1>
       </div>
       <div>
-        <div className='flex items-center justify-center space-x-8'>
+        <div className='flex lg:flex-row flex-col items-center justify-center space-x-8 '>
             <div
-              className='text-[20vw] font-bold bg-clip-text text-transparent bg-cover bg-center drop-shadow-xl'
+              className='lg:text-[20vw] text-[60vw] font-bold bg-clip-text text-transparent bg-cover bg-center drop-shadow-xl'
               style={{backgroundImage: `url(${EnergySaving})`}}>
               01
             </div>
             <div className='ml-6'>
               <h2 className='text-3xl font-bold'>Energy Savings</h2>
-              <p className='text-gray-600 max-w-md mt-[2vh]'>
+              <p className='text-gray-600 max-w-md mt-[2vh] lg:pr-[0vw] pr-[6vw]'>
               Agromate allows you to use your water pump exactly when needed. No more leaving it on for extended periods unnecessarily. This smart control translates to substantial energy savings over time, leading to reduced electricity bills and a smaller carbon footprint.
               </p>
             </div>
           </div>
-        <div className='flex items-center justify-center space-x-8'>
+        <div className='flex items-center justify-center space-x-8 lg:px-[0vw] lg:mt-[0vh] mt-[3vh] px-[6vw]'>
             <div className='ml-6'>
               <h2 className='text-3xl font-bold'>Time Efficiency</h2>
               <p className='text-gray-600 max-w-md mt-[2vh]'>

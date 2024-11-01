@@ -88,7 +88,7 @@ function Media() {
      </div>
      <h1 className='mb-[3vh] mt-[7vh] font-medium lg:text-[1.8vw]'>31st March 2015: AGRITEX'2015 @ HITEX Exhibition Center, Hyderabad, India</h1>
      <div className='lg:flex lg:justify-between'>
-       <img className='w-[90vw] lg:w-[40vw]' src="https://shop.agromate.in/wp-content/uploads/2023/09/agromate_papercut5.jpg" alt="" />
+       <img className='w-[90vw] lg:w-[30vw]' src="https://shop.agromate.in/wp-content/uploads/2023/09/agromate_papercut5.jpg" alt="" />
         <div className='video mt-[1vh] lg:mt-[0vh] lg:w-[40vw] lg:h-[40vh] w-[90vw] h-[35vh]'>
           <iframe
             width="100%"
@@ -101,6 +101,16 @@ function Media() {
           ></iframe>
         </div>
        </div>
+      </div>
+      <div>
+        <h1 className='mb-[3vh] mt-[7vh] font-medium lg:text-[1.8vw]'>13th Jul 2013 – AGRICLINIC Monthly Magazine</h1>
+        <img className='w-[90vw] lg:w-[40vw]' src="https://shop.agromate.in/wp-content/uploads/2023/09/Agri-Clinic_large-740x1024.jpg" alt="" />
+      </div>
+      <div className='flex justify-center pt-[3vw]'>
+        <div className='w-[90vw] border-[.5px] border-[#0000008b]'></div>
+      </div>
+      <div className='my-[3vh] text-center'>
+        <p className='font-light text-xs'>Copyright © 2024 Agromate All Right Reserved.</p>
       </div>
       </div>
     </div>
