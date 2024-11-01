@@ -42,7 +42,7 @@ function AboutUs() {
               </p>
             </div>
           </div>
-        <div className='flex items-center justify-center space-x-8 lg:px-[0vw] lg:mt-[0vh] mt-[3vh] px-[6vw]'>
+        <div className='flex lg:flex-row flex-col-reverse items-center justify-center space-x-8 lg:px-[0vw] lg:mt-[0vh] mt-[3vh] pr-[6vw]'>
             <div className='ml-6'>
               <h2 className='text-3xl font-bold'>Time Efficiency</h2>
               <p className='text-gray-600 max-w-md mt-[2vh]'>
@@ -50,14 +50,14 @@ function AboutUs() {
               </p>
             </div>
             <div
-              className='text-[20vw] font-bold bg-clip-text text-transparent bg-cover bg-center drop-shadow-xl'
+              className='lg:text-[20vw] text-[60vw] font-bold bg-clip-text text-transparent bg-cover bg-center drop-shadow-xl'
               style={{backgroundImage: `url(${TimeEfficiency})`}}>
               02
             </div>
           </div>
-        <div className='flex items-center justify-center space-x-8'>
+        <div className=' lg:flex-row flex-col flex items-center justify-center space-x-8'>
             <div
-              className='text-[20vw] font-bold bg-clip-text text-transparent bg-cover bg-center drop-shadow-xl'
+              className='lg:text-[20vw] text-[60vw] font-bold bg-clip-text text-transparent bg-cover bg-center drop-shadow-xl'
               style={{backgroundImage: `url(${WaterConservation})`}}>
               03
             </div>
@@ -68,22 +68,22 @@ function AboutUs() {
               </p>
             </div>
           </div>
-        <div className='flex items-center justify-center space-x-8'>
+        <div className='flex lg:flex-row flex-col-reverse  items-center justify-center space-x-8'>
             <div className='ml-6'>
               <h2 className='text-3xl font-bold'>Peace of Mind</h2>
-              <p className='text-gray-600 max-w-md mt-[2vh]'>
+              <p className='text-gray-600 max-w-md mt-[2vh] pr-[6vw]'>
               Agromate offers peace of mind by allowing you to monitor and control your pump remotely. Whether you want to prevent unauthorized use or respond to an unexpected situation, you have the power at your fingertips.
               </p>
             </div>
             <div
-              className='text-[20vw] font-bold bg-clip-text text-transparent bg-cover bg-center drop-shadow-xl'
+              className='lg:text-[20vw] text-[60vw] font-bold bg-clip-text text-transparent bg-cover bg-center drop-shadow-xl'
               style={{backgroundImage: `url(${Peace})`}}>
               04
             </div>
           </div>
-        <div className='flex items-center justify-center space-x-8'>
+        <div className='flex lg:flex-row flex-col items-center justify-center space-x-8'>
             <div
-              className='text-[20vw] font-bold bg-clip-text text-transparent bg-cover bg-center drop-shadow-xl'
+              className='lg:text-[20vw] text-[60vw] font-bold bg-clip-text text-transparent bg-cover bg-center drop-shadow-xl'
               style={{backgroundImage: `url(${Flexibility})`}}>
               05
             </div>
@@ -99,7 +99,7 @@ function AboutUs() {
         <h1 >This technology makes your life more flexible. You can adjust the pump schedule according to changing weather conditions, crop requirements, or any other factors, all from the convenience of your mobile phone.
           In conclusion, the Agromate Telemetric Electronic Device is a game-changer for those who rely on motor pumps for various applications, such as agriculture or water supply. Its ability to enable remote control not only saves you time and resources but also empowers you to contribute to a more sustainable and efficient future.</h1>
       </div>
-      <div className='flex justify-center'>
+      <div className='flex justify-center mt-[5vh] lg:mt-[0vh]'>
         <div className='w-[90vw] border-[.5px] border-[#0000008b]'></div>
       </div>
       <div className='py-[3vh] text-center'>
