@@ -13,7 +13,7 @@ function NavBar() {
       }
     }
     document.addEventListener("mousedown", handleClick)
-    return () => {
+    return () => { 
       document.removeEventListener("mousedown", handleClick)
     }
   }, [])
