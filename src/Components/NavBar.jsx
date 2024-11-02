@@ -35,7 +35,7 @@ function NavBar() {
         <i className="ri-xl font-bold ri-menu-line" onClick={() => setShowLinks(!showLinks)}></i>
       </div>
       </div>
-      <div className={`lg:flex ${showLinks ? 'flex flex-col font-semibold' : 'hidden'} gap-8 items-center`}>
+      <div className={`lg:flex ${showLinks ? 'flex flex-col font-semibold ' : 'hidden'} gap-8 items-center`}>
         <Link to="/HowItWorks" onClick={handleLinkClick}>How it works ?</Link>
         <Link to="/Media" onClick={handleLinkClick}>Media</Link>
         <Link to="/AboutUs" onClick={handleLinkClick}>About</Link>
