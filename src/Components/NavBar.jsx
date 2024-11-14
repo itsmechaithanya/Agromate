@@ -40,7 +40,7 @@ function NavBar() {
         <Link to="/Media" onClick={handleLinkClick}>Media</Link>
         <Link to="/AboutUs" onClick={handleLinkClick}>About</Link>
         <Link to="/ContactUs" onClick={handleLinkClick}>Contact Us</Link>
-        <Link className={`lg:bg-slate-200 bg-slate-500 lg:text-black text-white   font-medium py-[1vh] lg:px-[2vw] px-[7vw] rounded-full`} to="https://shop.agromate.in/shop/" onClick={handleLinkClick}>Shop <i className="ri-shopping-cart-line font-medium"></i></Link>
+        <Link className={`lg:bg-slate-200 bg-slate-500 lg:text-black text-white   font-medium py-[1vh] lg:px-[2vw] px-[7vw] rounded-full`} to="#" onClick={handleLinkClick}>Shop <i className="ri-shopping-cart-line font-medium"></i></Link>
       </div>
     </div>
   )
